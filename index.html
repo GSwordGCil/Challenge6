@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search_container">
+            <div class="search_func search_container_item">
+                <div class="search_container_item">Search for a City:</div>
+                <input id="search_text" class="search_bar search_container_item" rows="1"></input>
+                <div id="search_button" class="search_button search_container_item">Search</div>
+            </div>
+            <div class="search_history">
+                <div class="search_container_item">Search History</div>
+            </div>
+        </div>
+        <div class="display_container">
+            <div class="city_display">
+                <div id="city_text"></div>
+                <div id="temp_text" class="city_display_item"></div>
+                <div id="wind_text" class="city_display_item"></div>
+                <div id="humid_text" class="city_display_item"></div>
+            </div>
+            <div class="five_day_display">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>

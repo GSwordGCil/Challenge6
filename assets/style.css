@@ -1,0 +1,116 @@
+.container 
+{
+    display: flex;
+    justify-content: space-between; /* This will evenly distribute the items along the main axis */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.search_container
+{
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center; /* Align items vertically in the center */
+    background-color: lightgray;
+    width:20vw;
+}
+
+.display_container
+{
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center; /* Align items vertically in the center */
+    background-color: lightgray;
+    width:80vw;
+}
+
+.search_button
+{
+    width: 18vw;
+    height: 3vh;
+    background-color: #6992e3;
+    text-align: center;
+}
+
+.search_button:hover
+{
+    cursor:pointer;
+}
+
+.history_button
+{
+    width: 18vw;
+    height: 3vh;
+    background-color: #aeaeae;
+    text-align: center;
+}
+
+.history_button:hover
+{
+    cursor:pointer;
+}
+
+.search_func
+{
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center; /* Align items vertically in the center */
+    background-color: lightgray;
+    height:20vh;
+}
+
+.search_history
+{
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: start; /* Align items vertically in the center */
+    background-color: lightgray;
+    height:80vh;
+}
+
+.search_bar {
+    width: 18vw;
+    height: 3vh;
+    resize: none; /* Prevents the textarea from being resizable */
+}
+
+.search_container_item
+{
+    margin:5px;
+}
+
+.city_display
+{
+    border: 1px solid black;
+    width:80vw;
+    height:30vh;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.five_day_display
+{
+
+    width:80vw;
+    height:70vh;
+    display:flex;
+    
+}
+
+.card
+{
+    background-color: #323d4f;
+    height:30vh;
+    width:17vw;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    color:white;
+}
